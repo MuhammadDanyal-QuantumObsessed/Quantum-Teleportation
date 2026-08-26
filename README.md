@@ -48,29 +48,29 @@ Correctness is verified by applying a **random unitary gate** to `Q` before tele
 **Diagram 1 — Core Teleportation Circuit**
 Entanglement generation, Alice's Bell-basis operations, measurement, and Bob's conditional corrections (`X`/`Z`).
 
-![Teleportation setup ](Teleportation_setup.png)
+![Teleportation setup ](Teleportation%20setup.png)
 
 **Diagram 2 — Verified Teleportation Circuit**
 The random test gate applied to `Q`, composed with the teleportation circuit above, followed by the inverse gate and final measurement on Bob's qubit.
 
-![Verified Teleportation Setup](Tested_Teleportation_setup.png)
+![Verified Teleportation Setup](Tested%20Teleportation%20setup.png)
 
 ## Results
 
 **Graph 1 — Raw Measurement Counts (Aer Simulator, 4096 shots)**
 All three classical bits shown. Since the result qubit is deterministic, only outcomes starting with `0` appear.
 
-![Raw counts histogram](Aer_simulation.png)
+![Raw counts histogram](Aer%20simulation.png)
 
 **Graph 2 — Marginalized Result (Aer Simulator)**
 Filtering out Alice's randomly varying classical bits isolates the teleportation outcome: `0` in 100% of 4096 shots.
 
-![Filtered result histogram](Aer_simulation_using_marginal_distribution.png)
+![Filtered result histogram](Aer%20simulation%20using%20marginal%20distribution.png)
 
 **Graph 3 — Real Hardware Result (IBM Fez, 156 qubits)**
 Same circuit executed on real superconducting quantum hardware.
 
-![Real hardware execution](IBM's_Fez_simulation.png)
+![Real hardware execution](IBM%27s%20Fez%20simulation.png)
 
 ## Simulator vs. Real Hardware
 
