@@ -36,7 +36,7 @@ The protocol is tested in two environments:
 1. Alice and Bob share one entangled pair `(A, B)` prepared in the Bell state `|φ+⟩`.
 2. Alice holds the unknown qubit `Q` she wants to send to Bob.
 3. Alice applies a CNOT (`Q` → `A`) followed by a Hadamard gate on `Q`.
-4. Alice measures both `Q` and `A`, producing two classical bits.
+4. Alice measures both `Q` and `A`, producing two classical bits 'a' and 'b'.
 5. Alice sends these two classical bits to Bob.
 6. Bob conditionally applies an `X` gate (if Alice's measurement 'a' is 1 (a = 1)) and a `Z` gate (if Alice's measurement  'b' is 1(b = 1)) to his qubit.
 7. Bob's qubit now holds the exact state that `Q` originally had which means that teleportation has been completed.
@@ -111,8 +111,8 @@ quantum-teleportation/
 ├── teleportation_setup.png
 ├── tested_teleportation_setup.png
 ├── aer_simulation.png
-├──aer_simulation_marginal_distribution.png
-└── graph_3_ibm_execution.png
+├── aer_simulation_marginal_distribution.png
+└── ibm_execution.png
 ```
 
 # Key Concepts
