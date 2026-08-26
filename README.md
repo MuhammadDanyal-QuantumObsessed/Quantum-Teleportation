@@ -48,12 +48,12 @@ Correctness is verified by applying a **random unitary gate** to `Q` before tele
 **Diagram 1 — Core Teleportation Circuit**
 Entanglement generation, Alice's Bell-basis operations, measurement, and Bob's conditional corrections (`X`/`Z`).
 
-![Teleportation setup ](teleportation_setup.png)
+![Teleportation setup ](Teleportation_setup.png)
 
 **Diagram 2 — Verified Teleportation Circuit**
 The random test gate applied to `Q`, composed with the teleportation circuit above, followed by the inverse gate and final measurement on Bob's qubit.
 
-![Verified Teleportation Setup](tested_teleportation_setup.png)
+![Verified Teleportation Setup](Tested_Teleportation_setup.png)
 
 ## Results
 
@@ -65,7 +65,7 @@ All three classical bits shown. Since the result qubit is deterministic, only ou
 **Graph 2 — Marginalized Result (Aer Simulator)**
 Filtering out Alice's randomly varying classical bits isolates the teleportation outcome: `0` in 100% of 4096 shots.
 
-![Filtered result histogram](Aer_si,ulation_using_marginal_distribution.png)
+![Filtered result histogram](Aer_simulation_using_marginal_distribution.png)
 
 **Graph 3 — Real Hardware Result (IBM Fez, 156 qubits)**
 Same circuit executed on real superconducting quantum hardware.
@@ -123,8 +123,8 @@ quantum-teleportation/
 - **Fidelity** — a measure of how close the teleported state is to the original; 100% on the simulator, ~93% on real hardware in this run
 
 ## Future Improvements
-I will definitely extend this project tp
-- Extend to multi-qubit / entangled-state teleportation across processor
+I will definitely extend this project to:
+- Multi-qubit / entangled-state teleportation across processor
 
 
 ## License
