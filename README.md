@@ -108,11 +108,11 @@ While the simulator has none of these limitations, it is perfect, noise-less bac
 quantum-teleportation/
 ├── README.md
 ├── Quantum_Teleportation.ipynb
-├── circuit_diagram_1_Teleportation_setup.png
-├── circuit_diagram_2_Tested_Teleportation_setup.png
-├── graph_1_Aer_simulation.png
-├── graph_2_Aer_simulation_using_marginal_distribution.png
-└── graph_3_IBM's_Fez_simulation.png
+├── teleportation_setup.png
+├── tested_teleportation_setup.png
+├── aer_simulation.png
+├──aer_simulation_marginal_distribution.png
+└── graph_3_ibm_execution.png
 ```
 
 # Key Concepts
