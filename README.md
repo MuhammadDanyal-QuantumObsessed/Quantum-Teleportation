@@ -57,10 +57,10 @@ The random test gate applied to `Q`, composed with the teleportation circuit abo
 
 ## Results
 
-**Graph 1 — Raw Measurement Counts (Aer Simulator, 4096 shots)**
+**Graph 1 — Aer Simulation (Aer Simulator, 4096 shots)**
 All three classical bits shown. Since the result qubit is deterministic, only outcomes starting with `0` appear.
 
-![Raw counts histogram](Aer%20simulation.png)
+![Raw counts histogram](aer_simulation.png)
 
 **Graph 2 — Marginalized Result (Aer Simulator)**
 Filtering out Alice's randomly varying classical bits isolates the teleportation outcome: `0` in 100% of 4096 shots.
