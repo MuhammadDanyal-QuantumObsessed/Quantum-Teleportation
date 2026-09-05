@@ -1,12 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-"""
-Quantum Teleportation
-Converted from Quantum_Teleportation.ipynb
-"""
-
-
-# ======================================================================
 # # **Quantum Teleportation**
 # Quantum teleportation is a technique or protocol in quantum physics in which a sender transfers quantum information to a receiver at a different location using the concept of *entanglement*.
 #
