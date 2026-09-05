@@ -108,6 +108,7 @@ While the simulator has none of these limitations, it is perfect, noise-less bac
 quantum-teleportation/
 ├── README.md
 ├── Quantum_Teleportation.ipynb
+├── quantum_teleportation.py
 ├── teleportation_setup.png
 ├── tested_teleportation_setup.png
 ├── aer_simulation.png
